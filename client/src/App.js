@@ -13,7 +13,8 @@ function App() {
       <Route path='/about' element={<About/>}></Route>
       <Route path='/contact' element={<Contact/>}></Route>
       <Route path='/policy' element={<Policy/>}></Route>
-      <Route path='/*' element={<PageNotFound/>}></Route>
+      <Route path='/*' element={<PageNotFound/>}></Route> 
+      {/* Here '/*' means when no other routes work */}
     </Routes>
     </>
   );
