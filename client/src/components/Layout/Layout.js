@@ -18,11 +18,6 @@ const Layout = ({ children, title, description, keywords, author }) => {
       <Header />
       <main style={{ minHeight: "80vh" }}>
         <Toaster
-          position="top-center"
-          reverseOrder={false}
-          gutter={8}
-          containerClassName=""
-          containerStyle={{}}
           toastOptions={{
             // Define default options
             className: "",
