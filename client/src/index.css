@@ -35,7 +35,8 @@
 /*Footer CSS Starts*/
 .footer{
   color: #fff;
-  padding: 17px;
+  padding-top: 7px;
+  padding-bottom: 3px;
   background: linear-gradient(to right,#434343, #000000);
 }
 
